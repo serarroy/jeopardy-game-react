@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+
+.landing-container{
+    margin-top: 20%;
+    text-align: center;
+}
+
+h1{
+    font-size: 100px;
+    font-family: 'Bungee Spice', cursive;
+}
+
+button{
+    background: none;
+    border: none;
+    font-size: 40px;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    color: white;
+}

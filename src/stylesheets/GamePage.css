@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+
+.question-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.card{
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-color: #4C8C29;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: bold;
+}
+
+.card:hover{
+    transform: rotateY(180deg);
+}
+
+.front{
+    position: absolute;
+    border: 3px solid black;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    background-color: #E8E8E8;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: bold;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn{
+    font-size: 15px;
+    color: white;
+}
+
+.btn:hover{
+    color: black;
+}
+
+.back{
+    position: absolute;
+    border: 3px solid black;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    transform: rotateY(180deg);
+    background-color: #636363;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: bold;
+}
+
+.item{
+    position: relative;
+    border: 3px solid black;
+    width: 25%;
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: #4C8C29;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: bold;
+    /**/
+}
+
+.item:hover{
+    cursor: pointer;
+    background-color: burlywood;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.item-header{
+    border: 1px solid black;
+    width: 25%;
+    height: 100%;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: gray;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: bold;
+}
+
+.earning-container p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
